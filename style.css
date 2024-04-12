@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#mainHeader {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.mainNav {
+    background: #ccc;
+    color: #000;
+}
+
+.mainNav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.mainNav li {
+    display: inline;
+    padding: 5px 10px;
+}
+
+.mainNav a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.mainNav li:hover {
+    background: #aaa;
+    color: #000;
+}
+
+.jumbo {
+    background-image: url('https://source.unsplash.com/1600x900/?nature,sky');/*https://source.unsplash.com/1600x900/?nature,water*/
+    background-position: center center;
+    min-height: 300px;
+    /* text-align: center; */
+}
+
+.jumbo h1 {
+    color: #fff;/*fuck*/
+    font-size: 45px;
+    padding: 30px;
+    line-height: 1.6em;
+}
+
+.mainFooter {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    padding: 20px; /* Padding around the footer */
+    text-align: center;
+    font-size: 14px;
+}
+
+/* .mainFooter p{
+    color: #fff; /* White text */
+    /*
+    font-size: 16px; /* Standard text size */
+/*
+    padding: 10px; 
+    line-height: 1.6em; 
+    background-color: #333; 
+} */
+
+h2 {
+    padding: 10px;
+    margin: 40px;
+
+    line-height: 1.6em;
+}
+
+
+
+p{
+        
+        padding: 10px;
+        margin: 40px;
+        border: 2px solid purple;
+        line-height: 1.6em;
+}
+
